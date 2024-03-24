@@ -10,6 +10,9 @@ in the ATLAS database, you can update the file if needed. Once the measurements 
 the results will be written to Results_file = "Test_results_1.csv" file, you can change the name in the beginning of the program. 
 Similarly, measurement details are written to Details_file = "Test_details_1.csv", which you can modify.
 Lastly, ASN lookup function is performed on the results file, and the final results are written to ASN_results_file = "test.csv".
+In the current version, 1000 sources are used per target. To change this value, you need to modify multiple_source_destination_measurement function. 
+If n*1000 sources is needed, simply changing the range in the for loop is enough.
+If another value is needed, then sources_list = all_sources_list[MAX_PROBES_COUNT*i : MAX_PROBES_COUNT * (i+1)] line should be modified.
 
 
 
