@@ -1,4 +1,5 @@
 # Resilient-Advertisement
+PLEASE RUN ip_lookup.py FIRST TO CREATE THE BINARY IP DATABASE, WHICH TAKES AROUND 1 MINUTE TO COMPLETE.
 
 The folder contains the start_measurement.py file which is the main file.
 
