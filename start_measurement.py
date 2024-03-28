@@ -3,7 +3,7 @@ from datetime import datetime, timedelta, timezone
 import pprint, json, time, ipaddress
 import csv
 
-ATLAS_API_KEY = "a5827315-a74a-4efd-bcf7-9f0400b2b6f1"
+ATLAS_API_KEY = ""
 MAX_PROBES_COUNT = 1000
 MAX_MEASUREMENTS_COUNT = 25
 measurement_ids = []
